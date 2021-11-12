@@ -1,0 +1,4 @@
+<!--<h1 *ngFor="let taska of tasks">
+   {{ taska.text}}
+</h1>-->
+<app-tasks-item *ngFor="let task of tasks" [task]="task"></app-tasks-item>
